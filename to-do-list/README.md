@@ -17,5 +17,5 @@ Aplikasi Sederhana berbasis laravel untuk mencatat tugas harian
 1 salin folder
 2. Jalankan xampp dan buka di "http://localhost/todolist"
 
-##kontributor
+## kontributor
 -Muhammad Fahri Ilman
