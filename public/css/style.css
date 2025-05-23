@@ -1,0 +1,74 @@
+body {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding: 20px;
+        }
+        .todo-container {
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+            width: 100%;
+            max-width: 480px;
+            padding: 30px;
+        }
+        h2 {
+            font-weight: 700;
+            color: #4b3bff;
+            margin-bottom: 30px;
+            text-align: center;
+            letter-spacing: 1.2px;
+        }
+        .input-group .form-control {
+            border-radius: 50px 0 0 50px;
+            border: 2px solid #4b3bff;
+            transition: border-color 0.3s ease;
+        }
+        .input-group .form-control:focus {
+            border-color: #6a5cff;
+            box-shadow: none;
+        }
+        .input-group .btn-primary {
+            background: #4b3bff;
+            border: none;
+            border-radius: 0 50px 50px 0;
+            transition: background 0.3s ease;
+        }
+        .input-group .btn-primary:hover {
+            background: #6a5cff;
+        }
+        .list-group-item {
+            border-radius: 10px;
+            margin-bottom: 10px;
+            box-shadow: 0 4px 8px rgb(0 0 0 / 0.1);
+            transition: background-color 0.3s ease;
+        }
+        .list-group-item:hover {
+            background-color: #f9f9ff;
+        }
+        .todo-item.completed .todo-title {
+            text-decoration: line-through;
+            color: #a3a3a3;
+            font-style: italic;
+        }
+        .btn-danger {
+            border-radius: 50%;
+            width: 36px;
+            height: 36px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0;
+            font-size: 1.1rem;
+            transition: background-color 0.3s ease;
+        }
+        .btn-danger:hover {
+            background-color: #d63333;
+        }
+        .alert {
+            border-radius: 12px;
+            box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+        }
